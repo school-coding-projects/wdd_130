@@ -30,3 +30,17 @@ footer {
     color: white;
   }
 
+
+/* 03_class_and_selectors.html */
+/* Classes are specified with a dot or period before the class name in CSS */
+.main-para {
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+/* Now our home page link has a different 
+back-ground color and text color to show what page they are on */
+#active {
+  background-color: white;
+  color: steelblue;
+}
