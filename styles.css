@@ -12,6 +12,11 @@ a {
     margin: 40px;
   }
 
+a:hover {
+    background-color: white;
+    color: steelblue;
+}
+
 h1 {
     color: steelblue;
   }
@@ -38,6 +43,16 @@ footer {
     color: white;
     text-align: center;
   }
+
+footer p {
+    font-size: 20px;
+    margin: 20px auto;
+}
+
+nav, footer {
+    background-color: steelblue;
+    color: white;
+}
 
 a {
   font-size: 1.5em;
