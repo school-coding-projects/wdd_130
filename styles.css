@@ -1,13 +1,19 @@
 h1 {
   text-align: center;
+<<<<<<< HEAD
   /* set top and bottom margin */
   margin: 50px 0;
+=======
+>>>>>>> 0cb166c76d29817c28c628e9d5afdfe2d6b5b480
 }
 
 nav {
     background-color: steelblue;
     text-align: center;
+<<<<<<< HEAD
     padding: 25px;
+=======
+>>>>>>> 0cb166c76d29817c28c628e9d5afdfe2d6b5b480
   }
 
 a {
@@ -33,7 +39,10 @@ img {
     display: block;
     width: 80%;
     margin: 0 auto;
+<<<<<<< HEAD
     /* border around img */
+=======
+>>>>>>> 0cb166c76d29817c28c628e9d5afdfe2d6b5b480
     border: 4px solid steelblue;
   }
 
@@ -56,7 +65,10 @@ footer {
 footer p {
     font-size: 20px;
     margin: 20px auto;
+<<<<<<< HEAD
     padding: 25px;
+=======
+>>>>>>> 0cb166c76d29817c28c628e9d5afdfe2d6b5b480
 }
 
 nav, footer {
@@ -85,4 +97,8 @@ back-ground color and text color to show what page they are on */
 #active {
   background-color: white;
   color: steelblue;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 0cb166c76d29817c28c628e9d5afdfe2d6b5b480
