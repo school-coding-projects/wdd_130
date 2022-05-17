@@ -1,32 +1,88 @@
-body {
-    text-align: center;
-  }
+h1 {
+  text-align: center;
+  /* set top and bottom margin */
+  margin: 50px 0;
+}
 
 nav {
     background-color: steelblue;
-    padding: 10px;
+    text-align: center;
+    padding: 25px;
   }
 
 a {
     color: white;
     margin: 40px;
+    padding: 25px;
   }
+
+a:hover {
+    background-color: white;
+    color: steelblue;
+}
 
 h1 {
     color: steelblue;
   }
 
+body{
+  margin: 0
+}
+
 img {
-    width: 800px;
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    /* border around img */
     border: 4px solid steelblue;
   }
 
+main p {
+  width: 80%;
+  margin: 50px auto;
+  text-align: center;
+}
+
 p {
-    padding: 10px;
+    width: 80%;
   }
 
 footer {
     background-color: steelblue;
     color: white;
+    text-align: center;
   }
 
+footer p {
+    font-size: 20px;
+    margin: 20px auto;
+    padding: 25px;
+}
+
+nav, footer {
+    background-color: steelblue;
+    color: white;
+}
+
+a {
+  font-size: 1.5em;
+}
+
+/* borders every element 
+*{
+  border: 2px solid blue;
+}  */
+
+/* 03_class_and_selectors.html */
+/* Classes are specified with a dot or period before the class name in CSS */
+.main-para {
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+/* Now our home page link has a different 
+back-ground color and text color to show what page they are on */
+#active {
+  background-color: white;
+  color: steelblue;
+}
