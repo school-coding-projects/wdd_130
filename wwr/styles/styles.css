@@ -1,11 +1,13 @@
 nav a{
-    max-width: 1600px;
     text-align: center;
     color: #C6ECAE;
     text-decoration: none;
 }
 
-
+a{
+    text-align: center;
+    text-decoration: none;
+}
 footer a{
     color: #94C9A9;
     text-decoration: none;
