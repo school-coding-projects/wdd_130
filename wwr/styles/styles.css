@@ -1,13 +1,17 @@
-nav a{
-    text-align: center;
-    color: #C6ECAE;
-    text-decoration: none;
-}
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto+Mono&display=swap');
 
 a{
     text-align: center;
     text-decoration: none;
 }
+
+nav a{
+    text-align: center;
+    color: #C6ECAE;
+    text-decoration: none;
+    padding: 35px;
+}
+
 footer a{
     color: #94C9A9;
     text-decoration: none;
@@ -22,8 +26,13 @@ nav a:hover{
     width: 80px;
 }
 
+#logo_link{
+    padding-top: 5px;
+}
+
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 
 #content{
@@ -37,6 +46,9 @@ nav a:hover{
 
 .home-title{
     color: #495867;
+    font-family: "Permanent Marker", Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4{
@@ -56,20 +68,35 @@ main section{
     text-align: center;
 }
 
+main section img{
+    box-sizing: border-box;
+}
+
 
 body{
     background-color: #C6ECAE;
+    font-family: "Roboto Mono", Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    margin: 0;
 }
 
 header{
     background-color: #495867;
-    text-align: center;
+    
 }
 
 .book, .join{
     background-color: #C6ECAE;
     color: #495867;
     text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover{
@@ -77,8 +104,18 @@ header{
     color: #495867;
 }
 
+.rivers-card, .camping-card, .rapids-card {
+      margin: 200px 0;
+}
+
+.card-img{
+    border: 10px solid black;
+}
+
 .msg{
     background-color: #C6ECAE;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2{
@@ -87,10 +124,13 @@ header{
 
 .msg p{
     color: black;
+    padding-bottom: 15px;
 }
 
 footer{
     background-color: #495867;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer h3{
@@ -100,4 +140,8 @@ footer h3{
 footer a:hover{
     color: #C6ECAE;
     text-decoration: underline;
+}
+
+footer .social img{
+    padding-top: 15px;
 }

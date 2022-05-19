@@ -12,8 +12,8 @@ Fonts are separated by a | */
   --accent2-color: #7D451B ;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "Permanent Marker";
-  --paragraph-font: "Roboto Mono", sans-serif;
+  --heading-font: "Permanent Marker", Arial, sans-serif;
+  --paragraph-font: "Roboto Mono", Arial, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
   --headline-color-on-white: #495867;  /* headlines on a white background */ 
@@ -43,7 +43,7 @@ img {
   max-width: 300px;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--heading-font);
+  font-family: var(--headline-color-on-white);
   color: var(--headline-color-on-white);
 }
 h2 {
